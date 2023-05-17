@@ -8,8 +8,6 @@
   right: 0;
 }
 
-
-
 .menu .menu__list {
   display: flex;
   align-items: center;
@@ -38,7 +36,6 @@
 .menu__list--item:hover a {
   color: black !important;
 }
-
 
 footer a {
   color: var(--text-color-gray);
