@@ -1,0 +1,86 @@
+.header {
+  background: var(--main-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  height: 520px;
+}
+
+.header__title {
+  font-size: 6.4rem;
+  font-weight: 400;
+  line-height: 9.6rem;
+}
+
+.header__text {
+  font-size: 2.4rem;
+  font-weight: 500;
+  font-family: var(--second-font);
+}
+
+.header__btn--getstarted {
+  background: black;
+  padding: 1.2rem 2.4rem;
+}
+
+.header__btn--getstarted:hover {
+  background: var(--gray-bg-color);
+  color: black;
+}
+
+.firstsection__wrapper,
+.secondsection__wrapper {
+  align-items: center;
+  color: black;
+  display: flex;
+  font-family: var(--second-font);
+  justify-content: space-between;
+  padding: 10rem 0;
+}
+.secondsection {
+  background: #f1f1f1;
+}
+
+.firstsection__left,
+.secondsection__right {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  width: 70%;
+}
+
+.firstsection__left--title,
+.secondsection__left--title {
+  font-weight: 400;
+  font-size: 3.6rem;
+  font-family: var(--main-font);
+}
+
+.firstsection__right i,
+.secondsection__left i {
+  font-size: 20rem;
+  color: var(--main-color);
+}
+
+.firstsection__left--text,
+.secondsection__right--text {
+  color: var(--text-color-gray);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.banner {
+  background: #818181;
+}
+.banner__wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 8rem;
+}
+
+.banner__title {
+  font-weight: 400;
+}
